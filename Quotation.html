@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Quotation and Citation Elements</title>
+</head>
+<body style="font-family: Gill Sans MT ;">
+    <h2>HTML Quotation and Citation Elements</h2>
+    <p>In this chapter we will go through the &lt;blockquote&gt;,&lt;q&gt;, &lt;abbr&gt;, &lt;address&gt;, &lt;cite&gt;, and &lt;bdo&gt; HTML elements.</p>
+
+    <p><b>Example</b></p>
+    <p>Here is a quote from WWF's website:</p>
+    <blockquote cite="http://www.worldwildlife.org/who/index.html">
+    For 50 years, WWF has been protecting the future of nature.
+    The world's leading conservation organization,
+    WWF works in 100 countries and is supported by
+    1.2 million members in the United States and
+    close to 5 million globally.
+    </blockquote>
+
+    <h2>HTML &lt;blockquote&gt; for Quotations</h2>
+    <p>The HTML &lt;blockquote&gt; element defines a section that is quoted from another source.</p>
+    <p>Browsers usually indent &lt;blockquote&gt; elements.</p>
+    
+    <p><b>Example</b></p>
+    <pre>
+        &lt;p>Here is a quote from WWF's website:&lt;/p&gt;
+        &lt;blockquote <span style="color: red;">cite</span> =<span style="color:blue ;"><u>"http://www.worldwildlife.org/who/index.html"</u></span>&gt;
+        For 50 years, WWF has been protecting the future of nature.
+        The world's leading conservation organization,
+        WWF works in 100 countries and is supported by
+        1.2 million members in the United States and
+        close to 5 million globally.
+        &lt;/blockquote&gt;
+    </pre>
+
+    <p><b>Result</b></p>
+        <p>Here is a quote from WWF's website:</p>
+        <blockquote cite="http://www.worldwildlife.org/who/index.html">
+        For 50 years, WWF has been protecting the future of nature.
+        The world's leading conservation organization,
+        WWF works in 100 countries and is supported by
+        1.2 million members in the United States and
+        close to 5 million globally.
+        </blockquote>
+
+        <h2>HTML &lt;q&gt; for Short Quotations</h2>
+        <p>The HTML &lt;q&gt; tag defines a short quotation.</p>
+        <p>rowsers normally insert quotation marks around the quotation</p>
+
+        <p><b>Example</b></p>
+        <p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p>
+
+        <h2>HTML &lt;abbr&gt; for Abbreviations</h2>
+        <p>The HTML &lt;abbr&gt; tag defines an abbreviation or an acronym, like "HTML", "CSS", "Mr.", "Dr.", "ASAP", "ATM". Marking abbreviations can give useful information to browsers, translation systems and search-engines.</p>
+        <p><b>Tip:</b> Use the global title attribute to show the description for the abbreviation/acronym when you mouse over the element.</p>
+
+        <p><b>Example</b></p> 
+        <p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+
+        <h2>HTML &lt;address&gt; for Contact Information</h2>
+        <p>The HTML <span style="color: red;">&lt;address&gt;</span> tag defines the contact information for the author/owner of a document or an article.</p>
+        <p>The contact information can be an email address, URL, physical address, phone number, social media handle, etc.</p>
+        <p>The text in the &lt;address&gt; element usually renders in italic, and browsers will always add a line break before and after the &lt;address&gt; element.</p>
+
+        <p><b>Example</b></p>
+        <address>
+            Written by John Doe.<br>
+            Visit us at:<br>
+            Example.com<br>
+            Box 564, Disneyland<br>
+            USA
+        </address>
+
+        <h2>HTML &lt;cite&gt; for Work Title</h2>
+        <p>The HTML <span style="color: red;">&lt;cite&gt;</span> tag defines the title of a creative work (e.g. a book, a poem, a song, a movie, a painting, a sculpture, etc.).</p>
+        <p><b>Note:</b> A person's name is not the title of a work.</p>
+        <p>The text in the <span style="color: red;">&lt;cite&gt;</span> element usually renders in <i>italic</i>.</p>
+        
+        <p><b>Example</b></p>
+        <p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
+
+        <h2>HTML &lt;bdo&gt; for Bi-Directional Override</h2>
+        <p>BDO stands for Bi-Directional Override.</p>
+        <p>The HTML <span style="color: red;">&lt;bdo&gt;</span> tag is used to override the current text direction:</p>
+        
+        <p><b>Example</b></p>
+        <bdo dir="rtl">This text will be written from right to left</bdo>
+    
+    </body>
+</html>
